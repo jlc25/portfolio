@@ -48,9 +48,9 @@ svg:hover path {
 
 /* || SITE-WIDE || */
 .container {
-  width: 1536px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 70%;
+  max-width: 1440px;
+  margin: 0 auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -653,6 +653,10 @@ svg:hover path {
 @media (max-width: 1280px) {
   .container {
     max-width: 1024px;
+  }
+
+  .grid-3-col {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
